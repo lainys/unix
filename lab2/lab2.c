@@ -131,3 +131,6 @@ struct pam_module _pam_unix_auth_modstruct = {
     NULL,
 };
 #endif
+
+//sudo yum install gcc pam-devel
+//gcc -shared -o pam_mypam.so -fPIC lab2.c
