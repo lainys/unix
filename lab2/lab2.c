@@ -119,7 +119,7 @@ PAM_EXTERN int pam_sm_setcred(pam_handle_t * pamh, int flags
 }
 
 // Это определение необходимо для статической линковки модулей PAM в приложения
-х.
+//х.
 #ifdef PAM_STATIC
 struct pam_module _pam_unix_auth_modstruct = {
     "pam_mypam",
